@@ -8,7 +8,7 @@ metadata:
 
 spec:
   template:
-    metadata: 
+    metadata:
       name: nginx
       labels:
         type: server
@@ -16,6 +16,6 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: nginx
-        image: nginx:latest
+        - name: nginx
+          image: nginx:latest
   replicas: 10
